@@ -108,7 +108,7 @@ def main() -> None:
         print(f"Duration: {v_mission.duration_days} days")
         print(f"Budget: ${v_mission.budget_millions}M")
         print(f"Crew size: {len(v_mission.crew)}")
-        print("Crew memebers:")
+        print("Crew members:")
         for member in v_mission.crew:
             print(f"- {member.name} ({member.rank.value}) ", end="")
             print(f"- {member.specialization}")
